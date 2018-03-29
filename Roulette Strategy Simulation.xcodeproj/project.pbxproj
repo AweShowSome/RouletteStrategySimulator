@@ -14,6 +14,8 @@
 		2A56F347206C6BD400DBDF40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A56F345206C6BD400DBDF40 /* LaunchScreen.storyboard */; };
 		2A56F352206C6BD400DBDF40 /* Roulette_Strategy_SimulationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A56F351206C6BD400DBDF40 /* Roulette_Strategy_SimulationTests.swift */; };
 		2A56F35D206C6BD400DBDF40 /* Roulette_Strategy_SimulationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A56F35C206C6BD400DBDF40 /* Roulette_Strategy_SimulationUITests.swift */; };
+		2A56F36B206C6C3200DBDF40 /* TableNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A56F36A206C6C3200DBDF40 /* TableNumber.swift */; };
+		2A56F36D206C6D3300DBDF40 /* Table.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A56F36C206C6D3300DBDF40 /* Table.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		2A56F358206C6BD400DBDF40 /* Roulette Strategy SimulationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Roulette Strategy SimulationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A56F35C206C6BD400DBDF40 /* Roulette_Strategy_SimulationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Roulette_Strategy_SimulationUITests.swift; sourceTree = "<group>"; };
 		2A56F35E206C6BD400DBDF40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A56F36A206C6C3200DBDF40 /* TableNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableNumber.swift; sourceTree = "<group>"; };
+		2A56F36C206C6D3300DBDF40 /* Table.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Table.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				2A56F343206C6BD400DBDF40 /* Assets.xcassets */,
 				2A56F345206C6BD400DBDF40 /* LaunchScreen.storyboard */,
 				2A56F348206C6BD400DBDF40 /* Info.plist */,
+				2A56F36C206C6D3300DBDF40 /* Table.swift */,
+				2A56F36A206C6C3200DBDF40 /* TableNumber.swift */,
 			);
 			path = "Roulette Strategy Simulation";
 			sourceTree = "<group>";
@@ -261,6 +267,8 @@
 			files = (
 				2A56F33F206C6BD400DBDF40 /* ViewController.swift in Sources */,
 				2A56F33D206C6BD400DBDF40 /* AppDelegate.swift in Sources */,
+				2A56F36D206C6D3300DBDF40 /* Table.swift in Sources */,
+				2A56F36B206C6C3200DBDF40 /* TableNumber.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,6 +437,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZZQ2WVX4L7;
 				INFOPLIST_FILE = "Roulette Strategy Simulation/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.nimishupadhyay.Roulette-Strategy-Simulation";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -444,6 +453,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZZQ2WVX4L7;
 				INFOPLIST_FILE = "Roulette Strategy Simulation/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.nimishupadhyay.Roulette-Strategy-Simulation";
 				PRODUCT_NAME = "$(TARGET_NAME)";
