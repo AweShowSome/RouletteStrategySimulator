@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A56F33D206C6BD400DBDF40 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A56F33C206C6BD400DBDF40 /* AppDelegate.swift */; };
+		2A56F33F206C6BD400DBDF40 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A56F33E206C6BD400DBDF40 /* ViewController.swift */; };
+		2A56F342206C6BD400DBDF40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A56F340206C6BD400DBDF40 /* Main.storyboard */; };
+		2A56F344206C6BD400DBDF40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A56F343206C6BD400DBDF40 /* Assets.xcassets */; };
+		2A56F347206C6BD400DBDF40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A56F345206C6BD400DBDF40 /* LaunchScreen.storyboard */; };
+		2A56F352206C6BD400DBDF40 /* Roulette_Strategy_SimulationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A56F351206C6BD400DBDF40 /* Roulette_Strategy_SimulationTests.swift */; };
+		2A56F35D206C6BD400DBDF40 /* Roulette_Strategy_SimulationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A56F35C206C6BD400DBDF40 /* Roulette_Strategy_SimulationUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2A56F34E206C6BD400DBDF40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A56F331206C6BD400DBDF40 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A56F338206C6BD400DBDF40;
+			remoteInfo = "Roulette Strategy Simulation";
+		};
+		2A56F359206C6BD400DBDF40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A56F331206C6BD400DBDF40 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A56F338206C6BD400DBDF40;
+			remoteInfo = "Roulette Strategy Simulation";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2A56F339206C6BD400DBDF40 /* Roulette Strategy Simulation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Roulette Strategy Simulation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A56F33C206C6BD400DBDF40 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2A56F33E206C6BD400DBDF40 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2A56F341206C6BD400DBDF40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2A56F343206C6BD400DBDF40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2A56F346206C6BD400DBDF40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2A56F348206C6BD400DBDF40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A56F34D206C6BD400DBDF40 /* Roulette Strategy SimulationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Roulette Strategy SimulationTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A56F351206C6BD400DBDF40 /* Roulette_Strategy_SimulationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Roulette_Strategy_SimulationTests.swift; sourceTree = "<group>"; };
+		2A56F353206C6BD400DBDF40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A56F358206C6BD400DBDF40 /* Roulette Strategy SimulationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Roulette Strategy SimulationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A56F35C206C6BD400DBDF40 /* Roulette_Strategy_SimulationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Roulette_Strategy_SimulationUITests.swift; sourceTree = "<group>"; };
+		2A56F35E206C6BD400DBDF40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A56F336206C6BD400DBDF40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A56F34A206C6BD400DBDF40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A56F355206C6BD400DBDF40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A56F330206C6BD400DBDF40 = {
+			isa = PBXGroup;
+			children = (
+				2A56F33B206C6BD400DBDF40 /* Roulette Strategy Simulation */,
+				2A56F350206C6BD400DBDF40 /* Roulette Strategy SimulationTests */,
+				2A56F35B206C6BD400DBDF40 /* Roulette Strategy SimulationUITests */,
+				2A56F33A206C6BD400DBDF40 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2A56F33A206C6BD400DBDF40 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A56F339206C6BD400DBDF40 /* Roulette Strategy Simulation.app */,
+				2A56F34D206C6BD400DBDF40 /* Roulette Strategy SimulationTests.xctest */,
+				2A56F358206C6BD400DBDF40 /* Roulette Strategy SimulationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A56F33B206C6BD400DBDF40 /* Roulette Strategy Simulation */ = {
+			isa = PBXGroup;
+			children = (
+				2A56F33C206C6BD400DBDF40 /* AppDelegate.swift */,
+				2A56F33E206C6BD400DBDF40 /* ViewController.swift */,
+				2A56F340206C6BD400DBDF40 /* Main.storyboard */,
+				2A56F343206C6BD400DBDF40 /* Assets.xcassets */,
+				2A56F345206C6BD400DBDF40 /* LaunchScreen.storyboard */,
+				2A56F348206C6BD400DBDF40 /* Info.plist */,
+			);
+			path = "Roulette Strategy Simulation";
+			sourceTree = "<group>";
+		};
+		2A56F350206C6BD400DBDF40 /* Roulette Strategy SimulationTests */ = {
+			isa = PBXGroup;
+			children = (
+				2A56F351206C6BD400DBDF40 /* Roulette_Strategy_SimulationTests.swift */,
+				2A56F353206C6BD400DBDF40 /* Info.plist */,
+			);
+			path = "Roulette Strategy SimulationTests";
+			sourceTree = "<group>";
+		};
+		2A56F35B206C6BD400DBDF40 /* Roulette Strategy SimulationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2A56F35C206C6BD400DBDF40 /* Roulette_Strategy_SimulationUITests.swift */,
+				2A56F35E206C6BD400DBDF40 /* Info.plist */,
+			);
+			path = "Roulette Strategy SimulationUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2A56F338206C6BD400DBDF40 /* Roulette Strategy Simulation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A56F361206C6BD400DBDF40 /* Build configuration list for PBXNativeTarget "Roulette Strategy Simulation" */;
+			buildPhases = (
+				2A56F335206C6BD400DBDF40 /* Sources */,
+				2A56F336206C6BD400DBDF40 /* Frameworks */,
+				2A56F337206C6BD400DBDF40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Roulette Strategy Simulation";
+			productName = "Roulette Strategy Simulation";
+			productReference = 2A56F339206C6BD400DBDF40 /* Roulette Strategy Simulation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2A56F34C206C6BD400DBDF40 /* Roulette Strategy SimulationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A56F364206C6BD400DBDF40 /* Build configuration list for PBXNativeTarget "Roulette Strategy SimulationTests" */;
+			buildPhases = (
+				2A56F349206C6BD400DBDF40 /* Sources */,
+				2A56F34A206C6BD400DBDF40 /* Frameworks */,
+				2A56F34B206C6BD400DBDF40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A56F34F206C6BD400DBDF40 /* PBXTargetDependency */,
+			);
+			name = "Roulette Strategy SimulationTests";
+			productName = "Roulette Strategy SimulationTests";
+			productReference = 2A56F34D206C6BD400DBDF40 /* Roulette Strategy SimulationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2A56F357206C6BD400DBDF40 /* Roulette Strategy SimulationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A56F367206C6BD400DBDF40 /* Build configuration list for PBXNativeTarget "Roulette Strategy SimulationUITests" */;
+			buildPhases = (
+				2A56F354206C6BD400DBDF40 /* Sources */,
+				2A56F355206C6BD400DBDF40 /* Frameworks */,
+				2A56F356206C6BD400DBDF40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A56F35A206C6BD400DBDF40 /* PBXTargetDependency */,
+			);
+			name = "Roulette Strategy SimulationUITests";
+			productName = "Roulette Strategy SimulationUITests";
+			productReference = 2A56F358206C6BD400DBDF40 /* Roulette Strategy SimulationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A56F331206C6BD400DBDF40 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Nimish Upadhyay";
+				TargetAttributes = {
+					2A56F338206C6BD400DBDF40 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					2A56F34C206C6BD400DBDF40 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2A56F338206C6BD400DBDF40;
+					};
+					2A56F357206C6BD400DBDF40 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2A56F338206C6BD400DBDF40;
+					};
+				};
+			};
+			buildConfigurationList = 2A56F334206C6BD400DBDF40 /* Build configuration list for PBXProject "Roulette Strategy Simulation" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2A56F330206C6BD400DBDF40;
+			productRefGroup = 2A56F33A206C6BD400DBDF40 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A56F338206C6BD400DBDF40 /* Roulette Strategy Simulation */,
+				2A56F34C206C6BD400DBDF40 /* Roulette Strategy SimulationTests */,
+				2A56F357206C6BD400DBDF40 /* Roulette Strategy SimulationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A56F337206C6BD400DBDF40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A56F347206C6BD400DBDF40 /* LaunchScreen.storyboard in Resources */,
+				2A56F344206C6BD400DBDF40 /* Assets.xcassets in Resources */,
+				2A56F342206C6BD400DBDF40 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A56F34B206C6BD400DBDF40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A56F356206C6BD400DBDF40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A56F335206C6BD400DBDF40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A56F33F206C6BD400DBDF40 /* ViewController.swift in Sources */,
+				2A56F33D206C6BD400DBDF40 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A56F349206C6BD400DBDF40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A56F352206C6BD400DBDF40 /* Roulette_Strategy_SimulationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A56F354206C6BD400DBDF40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A56F35D206C6BD400DBDF40 /* Roulette_Strategy_SimulationUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2A56F34F206C6BD400DBDF40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A56F338206C6BD400DBDF40 /* Roulette Strategy Simulation */;
+			targetProxy = 2A56F34E206C6BD400DBDF40 /* PBXContainerItemProxy */;
+		};
+		2A56F35A206C6BD400DBDF40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A56F338206C6BD400DBDF40 /* Roulette Strategy Simulation */;
+			targetProxy = 2A56F359206C6BD400DBDF40 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2A56F340206C6BD400DBDF40 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A56F341206C6BD400DBDF40 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2A56F345206C6BD400DBDF40 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A56F346206C6BD400DBDF40 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2A56F35F206C6BD400DBDF40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2A56F360206C6BD400DBDF40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2A56F362206C6BD400DBDF40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZZQ2WVX4L7;
+				INFOPLIST_FILE = "Roulette Strategy Simulation/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nimishupadhyay.Roulette-Strategy-Simulation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2A56F363206C6BD400DBDF40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZZQ2WVX4L7;
+				INFOPLIST_FILE = "Roulette Strategy Simulation/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nimishupadhyay.Roulette-Strategy-Simulation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2A56F365206C6BD400DBDF40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZZQ2WVX4L7;
+				INFOPLIST_FILE = "Roulette Strategy SimulationTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nimishupadhyay.Roulette-Strategy-SimulationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Roulette Strategy Simulation.app/Roulette Strategy Simulation";
+			};
+			name = Debug;
+		};
+		2A56F366206C6BD400DBDF40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZZQ2WVX4L7;
+				INFOPLIST_FILE = "Roulette Strategy SimulationTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nimishupadhyay.Roulette-Strategy-SimulationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Roulette Strategy Simulation.app/Roulette Strategy Simulation";
+			};
+			name = Release;
+		};
+		2A56F368206C6BD400DBDF40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZZQ2WVX4L7;
+				INFOPLIST_FILE = "Roulette Strategy SimulationUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nimishupadhyay.Roulette-Strategy-SimulationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Roulette Strategy Simulation";
+			};
+			name = Debug;
+		};
+		2A56F369206C6BD400DBDF40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZZQ2WVX4L7;
+				INFOPLIST_FILE = "Roulette Strategy SimulationUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nimishupadhyay.Roulette-Strategy-SimulationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Roulette Strategy Simulation";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A56F334206C6BD400DBDF40 /* Build configuration list for PBXProject "Roulette Strategy Simulation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A56F35F206C6BD400DBDF40 /* Debug */,
+				2A56F360206C6BD400DBDF40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A56F361206C6BD400DBDF40 /* Build configuration list for PBXNativeTarget "Roulette Strategy Simulation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A56F362206C6BD400DBDF40 /* Debug */,
+				2A56F363206C6BD400DBDF40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A56F364206C6BD400DBDF40 /* Build configuration list for PBXNativeTarget "Roulette Strategy SimulationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A56F365206C6BD400DBDF40 /* Debug */,
+				2A56F366206C6BD400DBDF40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A56F367206C6BD400DBDF40 /* Build configuration list for PBXNativeTarget "Roulette Strategy SimulationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A56F368206C6BD400DBDF40 /* Debug */,
+				2A56F369206C6BD400DBDF40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A56F331206C6BD400DBDF40 /* Project object */;
+}
