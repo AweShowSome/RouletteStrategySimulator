@@ -61,7 +61,7 @@ class Table {
             // Currently for testing purposes
             listOfNumbers.append(TableNumber(num: -1, even: false, red: false))
         }
-    }
+    } 
     
     /**
      Determines whether a number is even or not
