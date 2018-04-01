@@ -9,8 +9,13 @@
 import Foundation
 
 class Table {
+    // Holds elements in an array
     var listOfNumbers = [TableNumber]()
     
+    /*
+     Constructor the creates an American board or a European board.
+     Still needs implementation of European board.
+     */
     init(american: Bool) {
         // Small test of 9 elements
 //        listOfNumbers.append(TableNumber(num: 1, even: false, red: true))
@@ -23,10 +28,7 @@ class Table {
 //        listOfNumbers.append(TableNumber(num: 8, even: true, red: false))
 //        listOfNumbers.append(TableNumber(num: 9, even: false, red: true))
         
-        // Create a new list of numbers
-//        var listOfNumbers = [TableNumber]() // This line causes problems! But I should not even be using this line.
-        
-        // A counter that counts through 9 numbers and should execute a flip of the coloring format
+        // A counter that goes through 9 numbers and should execute a flip of the coloring format
         var importantColorCounter = 0
         // Decides on the coloring format for the next 9 numbers
         var firstColoringFormat = true
@@ -37,6 +39,7 @@ class Table {
 
         // create a table based of the version of the board
         if american == true {
+            listOfNumbers.append(TableNumber(num: 0, even: true, red: false))
             for i in 1...36 {
 //                print(i)
                 importantColorCounter += 1
@@ -57,11 +60,13 @@ class Table {
             }
 
             print(listOfNumbers.count)
-        } else {
+        } else { // Need to implement the European version of the board
             // Currently for testing purposes
             listOfNumbers.append(TableNumber(num: -1, even: false, red: false))
         }
     } 
+    
+//    ADD MORE PRIVATE FUNCTIONS IF YOU ARE TO CREATE MORE PROPERTIES THAT NEED TO BE IDENTIFIED FOR TABLE ELEMENTS
     
     /**
      Determines whether a number is even or not

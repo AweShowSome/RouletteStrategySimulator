@@ -9,14 +9,18 @@
 import Foundation
 
 class TableNumber {
+    // Board element properties
     let number: Int!
     let isEven: Bool!
     let isRed: Bool!
+//     ADD MORE ELEMENTS AS YOU SEE FIT
     
+    /*
+     Creates a board element with certain properties
+     */
     init(num: Int, even: Bool, red: Bool) {
         number = num
         isEven = even
         isRed = red
     }
-    
 }
